@@ -1,0 +1,13 @@
+RewriteEngine on
+
+#internal rewrite
+RewriteCond %(REQUEST_FILENAME) !-f
+RewriteCond %(REQUEST_FILENAME) !-d
+
+RewriteRule assets/^(.*)$ assets/^(.*)$ [L]
+RewriteRule ^(.*)\.html$ index.php?url=$1 [L]
+RewriteRule ^([a-zA-Z0-9-_\/]+)$ index.php?url=$1 [QSA,L]
+RewriteRule ^([a-zA-Z0-9-_\/]+).html$ index.php?url=$1 [QSA,L]
+RewriteRule ^([a-zA-Z0-9-_$\/]+)/$ index.php?url=$1 [QSA,L]
+RewriteRule ^([a-zA-Z0-9-_$\/]+)/$ index.php?url=$1 [QSA,L]
+RewriteRule ^([a-zA-Z0-9-_\/]+)\?([a-zA-Z0-9-]+)$ index.php?url=$1&oid=$2[QSA,L]

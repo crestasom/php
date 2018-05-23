@@ -1,0 +1,6 @@
+[15-May-2017 16:26:47 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/shresthasomcom/public_html/assets/fb/src/Facebook/FacebookRedirectLoginHelper.php on line 186
+[23-Jun-2017 08:32:22 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/shresthasomcom/public_html/assets/fb/src/Facebook/FacebookRedirectLoginHelper.php on line 186
+[23-Jun-2017 08:32:47 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/shresthasomcom/public_html/assets/fb/src/Facebook/FacebookRedirectLoginHelper.php on line 186
+[24-Sep-2017 14:42:09 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/shresthasomcom/public_html/assets/fb/src/Facebook/FacebookRedirectLoginHelper.php on line 186
+[24-Sep-2017 14:42:34 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/shresthasomcom/public_html/assets/fb/src/Facebook/FacebookRedirectLoginHelper.php on line 186
+[15-Dec-2017 14:27:20 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/shresthasomcom/public_html/assets/fb/src/Facebook/FacebookRedirectLoginHelper.php on line 186

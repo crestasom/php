@@ -1,0 +1,10 @@
+RewriteEngine on
+
+#internal rewrite
+RewriteCond %(REQUEST_FILENAME) !-f
+RewriteCond %(REQUEST_FILENAME) !-d
+
+RewriteRule ^(.*)\.html$ index.php?url=voting/$1 [L]
+RewriteRule ^([a-zA-Z0-9-_\/]+)$ index.php?url=voting/$1 [L]
+RewriteRule ^([a-zA-Z0-9-_\/]+).html$ index.php?url=voting/$1 [L]
+RewriteRule ^([a-zA-Z0-9-_\/]+)/$ index.php?url=voting/$1 [L]
